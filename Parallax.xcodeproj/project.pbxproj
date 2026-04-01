@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04DE7CB5A91D03B496A9F479 /* PreviewPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903205C70577A1DD38E4AC6D /* PreviewPopover.swift */; };
 		13CFE9EB7A94FC6117900DE9 /* ParallaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C39EE69BFA0909F6AFC5D /* ParallaxApp.swift */; };
+		3087858831558AE8ADAC150D /* ProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079CDDB0A02481825F5495AA /* ProfileStore.swift */; };
+		367EA8687627FC75FC356539 /* HotkeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345FD37CAECF7F5C35721EC3 /* HotkeyManager.swift */; };
 		5947C195467AD98DA63B5E39 /* DisplayIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE8D68952C1F9E787899CF /* DisplayIdentifier.swift */; };
 		5E1316BDD7D713EC3A7EF9E9 /* DisplayArrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DE69C1449B0C553C710FC /* DisplayArrangement.swift */; };
 		64D28B057EAB24EFB32B05DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE48C8362CD8009BE202C16F /* Assets.xcassets */; };
@@ -19,8 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		079CDDB0A02481825F5495AA /* ProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStore.swift; sourceTree = "<group>"; };
+		345FD37CAECF7F5C35721EC3 /* HotkeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyManager.swift; sourceTree = "<group>"; };
 		58F8003539F09C113086CD69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		610E2CB719E66BFE90F09E6D /* DisplayChangeMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayChangeMonitor.swift; sourceTree = "<group>"; };
+		903205C70577A1DD38E4AC6D /* PreviewPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPopover.swift; sourceTree = "<group>"; };
 		ABB9D6A3832FC219798AB5C8 /* Parallax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parallax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEE8D68952C1F9E787899CF /* DisplayIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayIdentifier.swift; sourceTree = "<group>"; };
 		BA3D4F872847374E6A32B4D8 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
@@ -43,10 +49,19 @@
 			path = Display;
 			sourceTree = "<group>";
 		};
+		2862FC2050BEA87344077B17 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				079CDDB0A02481825F5495AA /* ProfileStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
 		3890AD22ECB091D472C3A4EE /* Util */ = {
 			isa = PBXGroup;
 			children = (
 				610E2CB719E66BFE90F09E6D /* DisplayChangeMonitor.swift */,
+				345FD37CAECF7F5C35721EC3 /* HotkeyManager.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -57,6 +72,7 @@
 				9103BF45A9132F8A3CFA25D5 /* App */,
 				151540AEB42D64C6BB5CAB5D /* Display */,
 				82EBD20C5DA48CFC0C80741A /* MenuBar */,
+				2862FC2050BEA87344077B17 /* Persistence */,
 				3890AD22ECB091D472C3A4EE /* Util */,
 			);
 			name = Sources;
@@ -92,6 +108,7 @@
 		82EBD20C5DA48CFC0C80741A /* MenuBar */ = {
 			isa = PBXGroup;
 			children = (
+				903205C70577A1DD38E4AC6D /* PreviewPopover.swift */,
 				BA3D4F872847374E6A32B4D8 /* StatusBarController.swift */,
 			);
 			path = MenuBar;
@@ -182,7 +199,10 @@
 				5947C195467AD98DA63B5E39 /* DisplayIdentifier.swift in Sources */,
 				7C6C5700C67674C80488047B /* DisplayManager.swift in Sources */,
 				700762D65C6DA88B49BB3E69 /* DisplayProfile.swift in Sources */,
+				367EA8687627FC75FC356539 /* HotkeyManager.swift in Sources */,
 				13CFE9EB7A94FC6117900DE9 /* ParallaxApp.swift in Sources */,
+				04DE7CB5A91D03B496A9F479 /* PreviewPopover.swift in Sources */,
+				3087858831558AE8ADAC150D /* ProfileStore.swift in Sources */,
 				EE18150E76786EA77060C735 /* StatusBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

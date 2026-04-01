@@ -1,5 +1,7 @@
 # Parallax
 
+<img width="441" height="368" alt="Parallax-v1-screenshot" src="https://github.com/user-attachments/assets/e1d1c5e7-b947-4e7d-b7bc-01ef44c11840" />
+
 A lightweight macOS menubar app for saving and switching between monitor arrangements with one click.
 
 ## What It Does

@@ -67,7 +67,6 @@ Profiles are stored as JSON in `~/Library/Application Support/Parallax/profiles.
 
 ## Limitations
 
-- **Not compatible with the Mac App Store** — the display configuration APIs do not work inside the App Sandbox. Distribute via direct download with notarization.
 - **Identical monitors** — two monitors of the exact same make and model with serial number 0 may not be distinguished reliably. This is rare.
 - **Accessibility permission** — global hotkeys require an Accessibility grant in System Settings > Privacy & Security > Accessibility. The app functions without it, but hotkeys will not work.
 

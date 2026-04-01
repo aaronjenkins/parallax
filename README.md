@@ -4,6 +4,17 @@
 
 A lightweight macOS menubar app for saving and switching between monitor arrangements with one click.
 
+## Download
+
+**[Latest Release (v1.0.0)](https://github.com/aaronjenkins/parallax/releases/latest)**
+
+Install via Homebrew:
+
+```sh
+brew tap aaronjenkins/parallax
+brew install --cask parallax
+```
+
 ## What It Does
 
 Parallax sits in your menubar and lets you save your current display configuration as a named profile, then switch between profiles instantly. Useful when you regularly change how your monitors are arranged — for example, laptop below an external display versus laptop beside it.

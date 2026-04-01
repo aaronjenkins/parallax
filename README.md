@@ -70,6 +70,10 @@ Profiles are stored as JSON in `~/Library/Application Support/Parallax/profiles.
 - **Identical monitors** — two monitors of the exact same make and model with serial number 0 may not be distinguished reliably. This is rare.
 - **Accessibility permission** — global hotkeys require an Accessibility grant in System Settings > Privacy & Security > Accessibility. The app functions without it, but hotkeys will not work.
 
+## Attribution
+
+<a href="https://www.flaticon.com/free-icons/parallax" title="parallax icons">Parallax icons created by Freepik - Flaticon</a>
+
 ## License
 
 MIT

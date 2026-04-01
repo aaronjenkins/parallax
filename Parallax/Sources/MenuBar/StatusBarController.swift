@@ -13,7 +13,9 @@ final class StatusBarController: NSObject {
         super.init()
 
         if let button = statusItem.button {
-            button.image = NSImage(systemSymbolName: "display.2", accessibilityDescription: "Parallax")
+            let icon = NSImage(named: "MenuBarIcon")
+            icon?.isTemplate = true
+            button.image = icon
         }
 
         rebuildMenu()

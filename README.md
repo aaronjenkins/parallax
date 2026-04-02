@@ -6,7 +6,7 @@ A lightweight macOS menubar app for saving and switching between monitor arrange
 
 ## Download
 
-**[Latest Release (v1.0.0)](https://github.com/aaronjenkins/parallax/releases/latest)**
+**[Latest Release (v1.1.0)](https://github.com/aaronjenkins/parallax/releases/latest)**
 
 Install via Homebrew:
 
